@@ -1,0 +1,216 @@
+<html>
+<head>
+<title>activity_advanced_level.xml</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #080808; font-style: italic;}
+.s1 { color: #174ad4;}
+.s2 { color: #080808;}
+.s3 { color: #067d17;}
+.s4 { color: #0033b3;}
+.s5 { color: #8c8c8c; font-style: italic;}
+</style>
+</head>
+<body bgcolor="#ffffff">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#c0c0c0" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+activity_advanced_level.xml</font>
+</center></td></tr></table>
+<pre><span class="s0">&lt;?</span><span class="s1">xml version</span><span class="s3">=&quot;1.0&quot; </span><span class="s1">encoding</span><span class="s3">=&quot;utf-8&quot;</span><span class="s0">?&gt;</span>
+<span class="s2">&lt;</span><span class="s4">androidx.constraintlayout.widget.ConstraintLayout </span><span class="s1">xmlns:android</span><span class="s3">=&quot;http://schemas.android.com/apk/res/android&quot;</span>
+    <span class="s1">xmlns:app</span><span class="s3">=&quot;http://schemas.android.com/apk/res-auto&quot;</span>
+    <span class="s1">xmlns:tools</span><span class="s3">=&quot;http://schemas.android.com/tools&quot;</span>
+    <span class="s1">android:layout_width</span><span class="s3">=&quot;match_parent&quot;</span>
+    <span class="s1">android:layout_height</span><span class="s3">=&quot;match_parent&quot;</span>
+    <span class="s1">tools:context</span><span class="s3">=&quot;.AdvancedLevelActivity&quot;</span><span class="s2">&gt;</span>
+
+<span class="s5">&lt;!--    &lt;ImageView--&gt;</span>
+<span class="s5">&lt;!--        android:id=&quot;@+id/background_image_4&quot;--&gt;</span>
+<span class="s5">&lt;!--        android:layout_width=&quot;421dp&quot;--&gt;</span>
+<span class="s5">&lt;!--        android:layout_height=&quot;731dp&quot;--&gt;</span>
+<span class="s5">&lt;!--        android:contentDescription=&quot;@string/background_design&quot;--&gt;</span>
+<span class="s5">&lt;!--        app:layout_constraintBottom_toBottomOf=&quot;parent&quot;--&gt;</span>
+<span class="s5">&lt;!--        app:layout_constraintEnd_toEndOf=&quot;parent&quot;--&gt;</span>
+<span class="s5">&lt;!--        app:layout_constraintStart_toStartOf=&quot;parent&quot;--&gt;</span>
+<span class="s5">&lt;!--        app:srcCompat=&quot;@drawable/big_paw_light_gradient&quot; /&gt;--&gt;</span>
+
+    <span class="s2">&lt;</span><span class="s4">ImageView</span>
+        <span class="s1">android:id</span><span class="s3">=&quot;@+id/random_image_1&quot;</span>
+        <span class="s1">android:layout_width</span><span class="s3">=&quot;152dp&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s3">=&quot;133dp&quot;</span>
+        <span class="s1">android:layout_marginStart</span><span class="s3">=&quot;8dp&quot;</span>
+        <span class="s1">android:layout_marginLeft</span><span class="s3">=&quot;8dp&quot;</span>
+        <span class="s1">android:layout_marginTop</span><span class="s3">=&quot;16dp&quot;</span>
+        <span class="s1">android:contentDescription</span><span class="s3">=&quot;@string/image_1_description&quot;</span>
+        <span class="s1">app:layout_constraintStart_toStartOf</span><span class="s3">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintTop_toTopOf</span><span class="s3">=&quot;parent&quot;</span>
+        <span class="s1">tools:srcCompat</span><span class="s3">=&quot;@tools:sample/avatars&quot; </span><span class="s2">/&gt;</span>
+
+    <span class="s2">&lt;</span><span class="s4">ImageView</span>
+        <span class="s1">android:id</span><span class="s3">=&quot;@+id/random_image_2&quot;</span>
+        <span class="s1">android:layout_width</span><span class="s3">=&quot;153dp&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s3">=&quot;133dp&quot;</span>
+        <span class="s1">android:layout_marginStart</span><span class="s3">=&quot;4dp&quot;</span>
+        <span class="s1">android:layout_marginLeft</span><span class="s3">=&quot;4dp&quot;</span>
+        <span class="s1">android:layout_marginTop</span><span class="s3">=&quot;24dp&quot;</span>
+        <span class="s1">android:contentDescription</span><span class="s3">=&quot;@string/image_2_sescription&quot;</span>
+        <span class="s1">app:layout_constraintStart_toStartOf</span><span class="s3">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintTop_toBottomOf</span><span class="s3">=&quot;@+id/random_image_1&quot;</span>
+        <span class="s1">tools:srcCompat</span><span class="s3">=&quot;@tools:sample/avatars&quot; </span><span class="s2">/&gt;</span>
+
+    <span class="s2">&lt;</span><span class="s4">TextView</span>
+        <span class="s1">android:id</span><span class="s3">=&quot;@+id/image_1_answer&quot;</span>
+        <span class="s1">android:layout_width</span><span class="s3">=&quot;126dp&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s3">=&quot;43dp&quot;</span>
+        <span class="s1">android:layout_marginTop</span><span class="s3">=&quot;4dp&quot;</span>
+        <span class="s1">android:layout_marginEnd</span><span class="s3">=&quot;276dp&quot;</span>
+        <span class="s1">android:layout_marginRight</span><span class="s3">=&quot;276dp&quot;</span>
+        <span class="s1">app:layout_constraintEnd_toEndOf</span><span class="s3">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintTop_toBottomOf</span><span class="s3">=&quot;@+id/image1_userAns&quot; </span><span class="s2">/&gt;</span>
+
+    <span class="s2">&lt;</span><span class="s4">TextView</span>
+        <span class="s1">android:id</span><span class="s3">=&quot;@+id/image_3_answer&quot;</span>
+        <span class="s1">android:layout_width</span><span class="s3">=&quot;126dp&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s3">=&quot;43dp&quot;</span>
+        <span class="s1">android:layout_marginStart</span><span class="s3">=&quot;8dp&quot;</span>
+        <span class="s1">android:layout_marginLeft</span><span class="s3">=&quot;8dp&quot;</span>
+        <span class="s1">android:layout_marginTop</span><span class="s3">=&quot;4dp&quot;</span>
+        <span class="s1">android:layout_marginEnd</span><span class="s3">=&quot;132dp&quot;</span>
+        <span class="s1">android:layout_marginRight</span><span class="s3">=&quot;132dp&quot;</span>
+        <span class="s1">app:layout_constraintEnd_toEndOf</span><span class="s3">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintHorizontal_bias</span><span class="s3">=&quot;0.507&quot;</span>
+        <span class="s1">app:layout_constraintStart_toEndOf</span><span class="s3">=&quot;@+id/random_image_3&quot;</span>
+        <span class="s1">app:layout_constraintTop_toBottomOf</span><span class="s3">=&quot;@+id/image3_userAns&quot; </span><span class="s2">/&gt;</span>
+
+    <span class="s2">&lt;</span><span class="s4">TextView</span>
+        <span class="s1">android:id</span><span class="s3">=&quot;@+id/image_2_answer&quot;</span>
+        <span class="s1">android:layout_width</span><span class="s3">=&quot;126dp&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s3">=&quot;43dp&quot;</span>
+        <span class="s1">android:layout_marginStart</span><span class="s3">=&quot;8dp&quot;</span>
+        <span class="s1">android:layout_marginLeft</span><span class="s3">=&quot;8dp&quot;</span>
+        <span class="s1">android:layout_marginTop</span><span class="s3">=&quot;4dp&quot;</span>
+        <span class="s1">android:layout_marginEnd</span><span class="s3">=&quot;132dp&quot;</span>
+        <span class="s1">android:layout_marginRight</span><span class="s3">=&quot;132dp&quot;</span>
+        <span class="s1">app:layout_constraintEnd_toEndOf</span><span class="s3">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintStart_toEndOf</span><span class="s3">=&quot;@+id/random_image_2&quot;</span>
+        <span class="s1">app:layout_constraintTop_toBottomOf</span><span class="s3">=&quot;@+id/image2_userAns&quot; </span><span class="s2">/&gt;</span>
+
+    <span class="s2">&lt;</span><span class="s4">ImageView</span>
+        <span class="s1">android:id</span><span class="s3">=&quot;@+id/random_image_3&quot;</span>
+        <span class="s1">android:layout_width</span><span class="s3">=&quot;152dp&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s3">=&quot;133dp&quot;</span>
+        <span class="s1">android:layout_marginStart</span><span class="s3">=&quot;8dp&quot;</span>
+        <span class="s1">android:layout_marginLeft</span><span class="s3">=&quot;8dp&quot;</span>
+        <span class="s1">android:layout_marginTop</span><span class="s3">=&quot;32dp&quot;</span>
+        <span class="s1">android:contentDescription</span><span class="s3">=&quot;@string/random_image_description&quot;</span>
+        <span class="s1">app:layout_constraintStart_toStartOf</span><span class="s3">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintTop_toBottomOf</span><span class="s3">=&quot;@+id/random_image_2&quot;</span>
+        <span class="s1">tools:srcCompat</span><span class="s3">=&quot;@tools:sample/avatars&quot; </span><span class="s2">/&gt;</span>
+
+    <span class="s2">&lt;</span><span class="s4">TextView</span>
+        <span class="s1">android:id</span><span class="s3">=&quot;@+id/correctResult_text&quot;</span>
+        <span class="s1">android:layout_width</span><span class="s3">=&quot;95dp&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s3">=&quot;51dp&quot;</span>
+        <span class="s1">android:layout_marginTop</span><span class="s3">=&quot;48dp&quot;</span>
+        <span class="s1">app:layout_constraintEnd_toEndOf</span><span class="s3">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintStart_toStartOf</span><span class="s3">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintTop_toBottomOf</span><span class="s3">=&quot;@+id/image_3_answer&quot; </span><span class="s2">/&gt;</span>
+
+    <span class="s2">&lt;</span><span class="s4">Button</span>
+        <span class="s1">android:id</span><span class="s3">=&quot;@+id/submit_btn&quot;</span>
+        <span class="s1">android:layout_width</span><span class="s3">=&quot;wrap_content&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s3">=&quot;wrap_content&quot;</span>
+        <span class="s1">android:layout_marginTop</span><span class="s3">=&quot;16dp&quot;</span>
+        <span class="s1">android:text</span><span class="s3">=&quot;@string/button&quot;</span>
+        <span class="s1">app:backgroundTint</span><span class="s3">=&quot;@color/purple_500&quot;</span>
+        <span class="s1">app:layout_constraintEnd_toEndOf</span><span class="s3">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintHorizontal_bias</span><span class="s3">=&quot;0.496&quot;</span>
+        <span class="s1">app:layout_constraintStart_toStartOf</span><span class="s3">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintTop_toBottomOf</span><span class="s3">=&quot;@+id/correctResult_text&quot; </span><span class="s2">/&gt;</span>
+
+    <span class="s2">&lt;</span><span class="s4">EditText</span>
+        <span class="s1">android:id</span><span class="s3">=&quot;@+id/image1_userAns&quot;</span>
+        <span class="s1">android:layout_width</span><span class="s3">=&quot;wrap_content&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s3">=&quot;wrap_content&quot;</span>
+        <span class="s1">android:layout_marginStart</span><span class="s3">=&quot;8dp&quot;</span>
+        <span class="s1">android:layout_marginLeft</span><span class="s3">=&quot;8dp&quot;</span>
+        <span class="s1">android:layout_marginTop</span><span class="s3">=&quot;16dp&quot;</span>
+        <span class="s1">android:layout_marginEnd</span><span class="s3">=&quot;88dp&quot;</span>
+        <span class="s1">android:layout_marginRight</span><span class="s3">=&quot;88dp&quot;</span>
+        <span class="s1">android:autofillHints</span><span class="s3">=&quot;&quot;</span>
+        <span class="s1">android:ems</span><span class="s3">=&quot;10&quot;</span>
+        <span class="s1">android:inputType</span><span class="s3">=&quot;textPersonName&quot;</span>
+        <span class="s1">app:layout_constraintEnd_toEndOf</span><span class="s3">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintStart_toEndOf</span><span class="s3">=&quot;@+id/random_image_1&quot;</span>
+        <span class="s1">app:layout_constraintTop_toTopOf</span><span class="s3">=&quot;parent&quot; </span><span class="s2">/&gt;</span>
+
+    <span class="s2">&lt;</span><span class="s4">EditText</span>
+        <span class="s1">android:id</span><span class="s3">=&quot;@+id/image2_userAns&quot;</span>
+        <span class="s1">android:layout_width</span><span class="s3">=&quot;wrap_content&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s3">=&quot;wrap_content&quot;</span>
+        <span class="s1">android:layout_marginStart</span><span class="s3">=&quot;8dp&quot;</span>
+        <span class="s1">android:layout_marginLeft</span><span class="s3">=&quot;8dp&quot;</span>
+        <span class="s1">android:layout_marginTop</span><span class="s3">=&quot;60dp&quot;</span>
+        <span class="s1">android:layout_marginEnd</span><span class="s3">=&quot;88dp&quot;</span>
+        <span class="s1">android:layout_marginRight</span><span class="s3">=&quot;88dp&quot;</span>
+        <span class="s1">android:autofillHints</span><span class="s3">=&quot;&quot;</span>
+        <span class="s1">android:ems</span><span class="s3">=&quot;10&quot;</span>
+        <span class="s1">android:inputType</span><span class="s3">=&quot;textPersonName&quot;</span>
+        <span class="s1">app:layout_constraintEnd_toEndOf</span><span class="s3">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintHorizontal_bias</span><span class="s3">=&quot;0.498&quot;</span>
+        <span class="s1">app:layout_constraintStart_toEndOf</span><span class="s3">=&quot;@+id/random_image_2&quot;</span>
+        <span class="s1">app:layout_constraintTop_toBottomOf</span><span class="s3">=&quot;@+id/image_1_answer&quot; </span><span class="s2">/&gt;</span>
+
+    <span class="s2">&lt;</span><span class="s4">EditText</span>
+        <span class="s1">android:id</span><span class="s3">=&quot;@+id/image3_userAns&quot;</span>
+        <span class="s1">android:layout_width</span><span class="s3">=&quot;wrap_content&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s3">=&quot;45dp&quot;</span>
+        <span class="s1">android:layout_marginStart</span><span class="s3">=&quot;8dp&quot;</span>
+        <span class="s1">android:layout_marginLeft</span><span class="s3">=&quot;8dp&quot;</span>
+        <span class="s1">android:layout_marginTop</span><span class="s3">=&quot;72dp&quot;</span>
+        <span class="s1">android:layout_marginEnd</span><span class="s3">=&quot;80dp&quot;</span>
+        <span class="s1">android:layout_marginRight</span><span class="s3">=&quot;80dp&quot;</span>
+        <span class="s1">android:autofillHints</span><span class="s3">=&quot;&quot;</span>
+        <span class="s1">android:ems</span><span class="s3">=&quot;10&quot;</span>
+        <span class="s1">android:inputType</span><span class="s3">=&quot;textPersonName&quot;</span>
+        <span class="s1">app:layout_constraintEnd_toEndOf</span><span class="s3">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintHorizontal_bias</span><span class="s3">=&quot;0.484&quot;</span>
+        <span class="s1">app:layout_constraintStart_toEndOf</span><span class="s3">=&quot;@+id/random_image_3&quot;</span>
+        <span class="s1">app:layout_constraintTop_toBottomOf</span><span class="s3">=&quot;@+id/image_2_answer&quot; </span><span class="s2">/&gt;</span>
+
+    <span class="s2">&lt;</span><span class="s4">TextView</span>
+        <span class="s1">android:id</span><span class="s3">=&quot;@+id/timer_text&quot;</span>
+        <span class="s1">android:layout_width</span><span class="s3">=&quot;wrap_content&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s3">=&quot;wrap_content&quot;</span>
+        <span class="s1">android:layout_marginStart</span><span class="s3">=&quot;27dp&quot;</span>
+        <span class="s1">android:layout_marginLeft</span><span class="s3">=&quot;27dp&quot;</span>
+        <span class="s1">android:layout_marginTop</span><span class="s3">=&quot;11dp&quot;</span>
+        <span class="s1">android:layout_marginEnd</span><span class="s3">=&quot;28dp&quot;</span>
+        <span class="s1">android:layout_marginRight</span><span class="s3">=&quot;28dp&quot;</span>
+        <span class="s1">android:layout_marginBottom</span><span class="s3">=&quot;12dp&quot;</span>
+        <span class="s1">android:textColor</span><span class="s3">=&quot;#D4E813&quot;</span>
+        <span class="s1">android:textSize</span><span class="s3">=&quot;24sp&quot;</span>
+        <span class="s1">android:visibility</span><span class="s3">=&quot;invisible&quot;</span>
+        <span class="s1">app:layout_constraintBottom_toBottomOf</span><span class="s3">=&quot;@+id/circular_progress_timer&quot;</span>
+        <span class="s1">app:layout_constraintEnd_toEndOf</span><span class="s3">=&quot;@+id/circular_progress_timer&quot;</span>
+        <span class="s1">app:layout_constraintStart_toStartOf</span><span class="s3">=&quot;@+id/circular_progress_timer&quot;</span>
+        <span class="s1">app:layout_constraintTop_toTopOf</span><span class="s3">=&quot;@+id/circular_progress_timer&quot; </span><span class="s2">/&gt;</span>
+
+    <span class="s2">&lt;</span><span class="s4">ProgressBar</span>
+        <span class="s1">android:id</span><span class="s3">=&quot;@+id/circular_progress_timer&quot;</span>
+        <span class="s1">style</span><span class="s3">=&quot;?android:progressBarStyleHorizontal&quot;</span>
+        <span class="s1">android:layout_width</span><span class="s3">=&quot;55dp&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s3">=&quot;55dp&quot;</span>
+        <span class="s1">android:layout_marginTop</span><span class="s3">=&quot;52dp&quot;</span>
+        <span class="s1">android:layout_marginRight</span><span class="s3">=&quot;48dp&quot;</span>
+        <span class="s1">android:progress</span><span class="s3">=&quot;0&quot;</span>
+        <span class="s1">android:progressDrawable</span><span class="s3">=&quot;@drawable/circular_progress&quot;</span>
+        <span class="s1">android:rotation</span><span class="s3">=&quot;-90&quot;</span>
+        <span class="s1">app:layout_constraintRight_toRightOf</span><span class="s3">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintTop_toTopOf</span><span class="s3">=&quot;parent&quot; </span><span class="s2">/&gt;</span>
+
+
+<span class="s2">&lt;/</span><span class="s4">androidx.constraintlayout.widget.ConstraintLayout</span><span class="s2">&gt;</span></pre>
+</body>
+</html>

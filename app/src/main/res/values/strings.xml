@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Mobile Application Development - Coursework 01</string>
+
+    <string name="todo">TODO</string>
+
+    <string name="identify_the_car_image">IDENTIFY THE CAR IMAGE</string>
+    <string name="hints">HINTS</string>
+    <string name="identify_the_car_make">IDENTIFY THE CAR MAKE</string>
+    <string name="advanced_level">ADVANCED LEVEL</string>
+
+    <string name="logo_2">logo_2</string>
+    <string name="logo_image">logo_image</string>
+
+    <string name="button_label_identify">Identify</string>
+    <string name="next_button_label">next_button_label</string>
+    <string name="button_label_submit">button_label_submit</string>
+    <string name="textview">TextView</string>
+    <string name="button">Button</string>
+    <string name="submit">SUBMIT</string>
+    <string name="countdown">Countdown</string>
+    <string name="next">Next</string>
+    <string name="identify">Identify</string>
+
+    <string name="background">background</string>
+    <string name="next_buttob_label">NEXT</string>
+    <string name="instruction_label">Choose correct car type</string>
+
+    <string name="hint_letters_textview">hint letters textview</string>
+    <string name="autocompletetextview">AutoCompleteTextView</string>
+    <string name="background_design">background_image</string>
+    <string name="random_car_image">random_car_image</string>
+
+
+    <string name="random_car_image_description">random_car_image_description</string>
+    <string name="random_image_description">random image description</string>
+    <string name="image_1_description">image 1 description</string>
+    <string name="image_2_sescription">image 2 sescription</string>
+    <string name="image_of_first_car_description">image of 1st car description</string>
+    <string name="image_of_second_car_description">image of 2nd car description</string>
+    <string name="image_of_third_car_description">image of 3rd car description</string>
+    <string name="carImage_instructions">Choose the correct image of given type of car</string>
+
+
+    <string-array name="carMake_array" >
+        <item></item>
+        <item >Audi</item>
+        <item>Benz</item>
+        <item>BMW</item>
+        <item>Honda</item>
+        <item>KIA</item>
+        <item>Lexus</item>
+        <item>Mazda</item>
+        <item>Skoda</item>
+        <item>Subaru</item>
+        <item>Toyota</item>
+        <item>Volvo</item>
+    </string-array>
+
+
+</resources>
