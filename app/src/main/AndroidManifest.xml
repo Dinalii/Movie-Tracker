@@ -1,32 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.mad_cw">
+    package="com.example.main">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="Mobile Application Development - Coursework 01"
+        android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.MAD_CW">
-        <activity android:name=".MainActivity">
+        android:theme="@style/Theme.MoviesApp">
+
+        <activity android:name="com.example.main.MainActivity">
+<!--            android:configChanges="orientation|screenSize">-->
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity
-            android:name=".IdentifyCarMakeActivity"
-            android:label="IDENTIFY CAR MAKE" />
+            android:name="com.example.main.RegisterMovie"
+            android:parentActivityName="com.example.main.MainActivity" />
         <activity
-            android:name=".HintsActivity"
-            android:label="HINTS"/>
+            android:name="com.example.main.DisplayMovies"
+            android:parentActivityName="com.example.main.MainActivity"/>
         <activity
-            android:name=".IdentifyCarImageActivity"
-            android:label="IDENTIFY CAR IMAGE" />
+            android:name="com.example.main.FavoriteMovies"
+            android:parentActivityName="com.example.main.MainActivity" />
         <activity
-            android:name=".AdvancedLevelActivity"
-            android:label="ADVANCED LEVEL" />
+            android:name="com.example.main.EditMovieIndex"
+            android:parentActivityName="com.example.main.MainActivity"/>
+        <activity
+            android:name="com.example.main.EditMovie"
+            android:parentActivityName="com.example.main.EditMovieIndex"/>
+        <activity
+            android:name="com.example.main.Search"
+            android:parentActivityName="com.example.main.MainActivity" />
+        <activity
+            android:name="com.example.main.RatingsIndex"
+            android:parentActivityName="com.example.main.MainActivity" />
+        <activity
+            android:name="com.example.main.RatingTitles"
+            android:parentActivityName="com.example.main.RatingsIndex"/>
+        <activity
+            android:name="com.example.main.RatingImage"
+            android:parentActivityName="com.example.main.RatingTitles"/>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RatingTitles"
+    android:background="@drawable/gradient_animation"
+    android:id="@+id/activity_rating_titles_base">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/app_bar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:theme="@style/AppTheme.AppBar">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/activity_rating_title_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:title="@string/rating_title_activity_title" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <ListView
+        android:id="@+id/rating_titles_list_view"
+        style="@android:style/Widget.DeviceDefault.Light.ListView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/app_bar" >
+
+    </ListView>
+
+    <TextView
+        android:id="@+id/activity_rating_titles_loading_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/andika"
+        android:gravity="center"
+        android:text="@string/loading_text"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/rating_titles_list_view"
+        app:layout_constraintEnd_toEndOf="@+id/rating_titles_list_view"
+        app:layout_constraintStart_toStartOf="@+id/rating_titles_list_view"
+        app:layout_constraintTop_toBottomOf="@+id/app_bar" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

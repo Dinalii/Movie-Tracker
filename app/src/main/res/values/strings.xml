@@ -1,60 +1,61 @@
 <resources>
-    <string name="app_name">Mobile Application Development - Coursework 01</string>
-
-    <string name="todo">TODO</string>
-
-    <string name="identify_the_car_image">IDENTIFY THE CAR IMAGE</string>
-    <string name="hints">HINTS</string>
-    <string name="identify_the_car_make">IDENTIFY THE CAR MAKE</string>
-    <string name="advanced_level">ADVANCED LEVEL</string>
-
-    <string name="logo_2">logo_2</string>
-    <string name="logo_image">logo_image</string>
-
-    <string name="button_label_identify">Identify</string>
-    <string name="next_button_label">next_button_label</string>
-    <string name="button_label_submit">button_label_submit</string>
-    <string name="textview">TextView</string>
-    <string name="button">Button</string>
-    <string name="submit">SUBMIT</string>
-    <string name="countdown">Countdown</string>
-    <string name="next">Next</string>
-    <string name="identify">Identify</string>
-
-    <string name="background">background</string>
-    <string name="next_buttob_label">NEXT</string>
-    <string name="instruction_label">Choose correct car type</string>
-
-    <string name="hint_letters_textview">hint letters textview</string>
-    <string name="autocompletetextview">AutoCompleteTextView</string>
-    <string name="background_design">background_image</string>
-    <string name="random_car_image">random_car_image</string>
 
 
-    <string name="random_car_image_description">random_car_image_description</string>
-    <string name="random_image_description">random image description</string>
-    <string name="image_1_description">image 1 description</string>
-    <string name="image_2_sescription">image 2 sescription</string>
-    <string name="image_of_first_car_description">image of 1st car description</string>
-    <string name="image_of_second_car_description">image of 2nd car description</string>
-    <string name="image_of_third_car_description">image of 3rd car description</string>
-    <string name="carImage_instructions">Choose the correct image of given type of car</string>
+
+    <!-- Display movies activity strings-->
+    <string name="display_movies_activity_title">Display movies</string>
+    <string name="display_movies_add_favorite_btn_text">Add to Favourites</string>
+
+    <!-- Favorite movies activity strings-->
+    <string name="favorite_movies_activity_title">Favorite movies</string>
+    <string name="favorite_movies_remove_favorite_btn_text">Remove from Favourites</string>
+
+    <!-- Edit movie index activity strings -->
+    <string name="edit_movie_index_activity_title">Edit Movie</string>
 
 
-    <string-array name="carMake_array" >
-        <item></item>
-        <item >Audi</item>
-        <item>Benz</item>
-        <item>BMW</item>
-        <item>Honda</item>
-        <item>KIA</item>
-        <item>Lexus</item>
-        <item>Mazda</item>
-        <item>Skoda</item>
-        <item>Subaru</item>
-        <item>Toyota</item>
-        <item>Volvo</item>
-    </string-array>
+    <!-- Edit movie activity- strings -->
+    <string name="edit_movie_activity_title">Edit Movie</string>
+    <string name="edit_movie_update_btn_text">Update</string>
+    <string name="edit_movie_favorite_switch_text">Favorite</string>
 
+    <!-- Edit movie activity data and Register movie activity strings-->
+    <string name="register_movie_text_movie_title">Title of the movie</string>
+    <string name="register_movie_text_movie_year">Year</string>
+    <string name="register_movie_text_movie_director">Director</string>
+    <string name="register_movie_text_movie_actors">Actors/Actress</string>
+    <string name="register_movie_text_movie_rating">Rating</string>
+    <string name="register_movie_text_movie_review">Review</string>
+    <string name="register_movie_save_btn_text">Save</string>
+    <string name="string_edit_movie_favorite_switch_text">Favorite</string>
 
+    <!-- Search movie activity strings -->
+    <string name="search_movie_activity_title">Search Movies</string>
+    <string name="search_movie_search_terms_text">Search title, actors, director</string>
+    <string name="search_movie_lookup_btn_text">Search</string>
+
+    <!-- Ratings activity strings -->
+    <string name="ratings_activity_title">Ratings</string>
+
+    <!-- Rating titles activity strings -->
+    <string name="rating_title_activity_title">Available movies</string>
+    <string name="activity_rating_index_find_btn_text">Find movie in IMDB</string>
+    <!-- Rating movie image activity strings -->
+    <string name="rating_image_activity_title">Movie image</string>
+    <string name="activity_rating_image_movie_image">Movie image</string>
+
+    <!-- loading string-->
+    <string name="loading_text">Wait a second ...</string>
+
+    <!-- Register movie activity strings-->
+    <string name="register_movie_activity_title">Register move</string>
+
+    <!--  main activity strings -->
+    <string name="app_name">Movies App</string>
+    <string name="main_btn_1_text">Register Movie</string>
+    <string name="main_btn_2_text">Display Movies</string>
+    <string name="main_btn_3_text">Favourites</string>
+    <string name="main_btn_4_text">Edit Movies</string>
+    <string name="main_btn_5_text">Search</string>
+    <string name="main_btn_6_text">Ratings</string>
 </resources>
