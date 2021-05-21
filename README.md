@@ -1,27 +1,25 @@
 # Movie-Tracker
 
-### This is a Native Android Mobile Application which was developed as a Movie Tracker.
+This is a Native Android Mobile Application which was developed as a Movie Tracker.
 
-### This application contains with following functinalities :
+This application contains with following functinalities :</br>
+:small_orange_diamond:Register Movies</br>
+:small_orange_diamond:Add/Remove Favorites Movies</br>
+:small_orange_diamond:Edit Registered Movies</br>
+:small_orange_diamond:Search Movies in Device Database by Movie Title or Movie Director</br>
+:small_orange_diamond:Get Movie Title/Ratings/Images from IMDB API
 
-#### :small_orange_diamond: Register Movies
-#### :small_orange_diamond: Add/Remove Favorites Movies
-#### :small_orange_diamond: Edit Registered Movies
-#### :small_orange_diamond: Search Movies in Device Database by Movie Title or Movie Director
-#### :small_orange_diamond: Get Movie Title/Ratings/Images from IMDB API
-
-#### Registering movie data will stored using a SQLite Database.
-#### Before run the downloaded project you will need to create a free account on this web service - [IMDB](https://imdb-api.com/
-#### ) which gives you a unique key
-#### Then copy paste that IMDB API key on imdb -> ImdbMovieRequest -> line 72. In order to do get data from IMDB, you need a valid API key.
+Registering movie data will stored using a SQLite Database.</br>
+Before run the downloaded project you will need to create a free account on this web service(https://imdb-api.com/) which gives you a unique key.</br>
+Then copy paste that IMDB API key on imdb -> ImdbMovieRequest -> line 72. In order to do get data from IMDB, you need a valid API key.
 
 ## Directory Layout
 
 ```
-.
+
 ├── app
 │   ├── manifets
-|        ├── AndroidManifest.xml
+|   |    ├── AndroidManifest.xml
 │   ├── java
 |   |   ├── com.example.main
 |   |   |   ├──  imdb
